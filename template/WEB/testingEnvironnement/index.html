@@ -11,16 +11,8 @@
   </head>
   <body>
     <header class="header">Testing environement</header>
-    <div id='app' class="body grid grid-pad">
-      <form>
-        <div class="form-group">
-          <input type="checkbox" v-model="success" class="form-check-input">
-          <input type="text" v-model="message" class="form-control">
-        </div>
-      </form>
-
-      <div class="alert alert-success" v-if="success"><i class="material-icons">done</i>{{message}}</div>
-      <div class="alert alert-danger" v-else><i class="material-icons">cancel</i>You've got a bad day men ?</div>
+    <div class="body grid grid-pad">
+      <div class="alert alert-success"><i class="material-icons">done</i>Félicitations! Votre environnement de test à été correctement configuré.</div>
 
 
     </div>
